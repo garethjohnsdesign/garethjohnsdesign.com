@@ -1,6 +1,6 @@
-# Elan Jones
+# Gareth Johns
 
-Website for Elan Jones. Please go to [www.elanmaijones.com](http://elanmaijones.com) in case you want to take a look at the website.
+Website for Gareth Johns Design. Please go to [www.garethjohnsdesign.com](http://garethjohnsdesign.com) in case you want to take a look at the website.
 
 * * *
 
