@@ -1,0 +1,50 @@
+---
+title: Gareth Johns
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+url: http://garethjohnsdesign.com
+permalink: pretty
+exclude:
+- bower_components
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+description: A graphic design practice based in London. The studio is focused on art
+  direction , development, and design for print.
+company: Gareth Johns
+email: info@garethjohnsdesign.com
+facebook: 
+instagram: 
+twitter:
+  username: benbalter
+imdb: 
+vimeo: 
+linkedin: 
+googleplus: 
+googleanalytics: UA-83447045-1
+google_site_verification: 
+logo: "/assets/img/layout/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
