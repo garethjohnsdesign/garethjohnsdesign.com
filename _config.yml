@@ -30,19 +30,20 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-description: A graphic design practice based in London. The studio is focused on art direction , development, and design for print.
+description: A graphic design practice based in London. The studio is focused on art
+  direction , development, and design for print.
 company: Gareth Johns
 email: info@garethjohnsdesign.com
 facebook: 
 instagram: 
 twitter:
-  username: benbalter 
+  username: benbalter
 imdb: 
 vimeo: 
 linkedin: 
 googleplus: 
 googleanalytics: UA-83447045-1
-google_site_verification:
+google_site_verification: 
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
