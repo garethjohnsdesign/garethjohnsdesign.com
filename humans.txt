@@ -63,10 +63,6 @@ slack.com
 FONTS
 -----
 
-Big Caslon
-by Font Bureau
-http://www.fontbureau.com
-
-Bau
-by Font Bureau
-http://www.fontbureau.com
+Post Grotesk
+by Incubator
+https://vllg.com
