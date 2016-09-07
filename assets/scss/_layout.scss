@@ -67,3 +67,13 @@ a {
 	padding-top: 1rem;
 }
 
+.content  {
+  padding: 3rem;	
+  @include breakpoint(small only) {
+	  padding: 2rem;
+  }
+  @include breakpoint(medium) {
+  	  padding: 4rem;
+  }
+}
+
