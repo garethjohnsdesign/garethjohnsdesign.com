@@ -1,0 +1,69 @@
+// Standard
+
+body {
+    opacity: 1;
+    transition: $primary-transition;
+}
+body.fade-out {
+    opacity: 0;
+    transition: $primary-transition;
+}
+
+svg {
+	max-width: 100%;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto
+}
+
+::selection {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+// Typography
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.sans-serif {
+	font-family: $font-family-secondary;
+}
+
+
+// Layout
+
+a { 
+	transition: $primary-transition;
+}
+
+.underline-black { 
+	@include underline-from-left;
+}
+
+.index {
+	padding-top: 4rem;
+}
+
+.contact {
+	padding-top: 1rem;
+}
+
