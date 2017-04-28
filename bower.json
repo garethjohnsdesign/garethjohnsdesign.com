@@ -9,14 +9,16 @@
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
-    "foundation-sites": "^6.2.3",
+    "foundation-sites": "^6.3.1",
     "motion-ui": "~1.2.2",
-    "what-input": "^2.1.0",
-    "lity": "^1.6.6",
-    "smoothstate": "^0.7.2",
-    "schmick": "^1.1.0",
-    "history.js": "^1.8.0",
-    "flickity": "^2.0.3"
+    "what-input": "^4.1.0",
+    "svgxuse": "^1.2.3",
+    "wow": "wow.js#^1.1.2",
+    "jquery": "^3.1.1",
+    "jquery-smooth-scroll": "^2.1.2",
+    "flickity": "^2.0.5",
+    "PACE": "pace#^1.0.2",
+    "smoothstate": "^0.7.2"
   },
   "ignore": [
     "**/.*",
@@ -27,12 +29,7 @@
   ],
   "private": true,
   "resolutions": {
-    "what-input": "^2.1.0",
-    "flickity": "^2.0.3",
-    "get-size": "^2.0.0",
-    "fizzy-ui-utils": "^2.0.0",
-    "unidragger": "^2.1.0",
-    "tap-listener": "^2.0.0",
-    "unipointer": "^2.1.0"
+    "what-input": "^4.1.0",
+    "jquery": "^3.1.1"
   }
 }
