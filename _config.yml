@@ -1,5 +1,5 @@
 ---
-title: "Gareth Johns Design + Development"
+title: Gareth Johns Design + Development
 timezone: UTC
 collections:
   posts:
@@ -15,7 +15,8 @@ defaults:
   values:
     permalink: "/journal/:title/"
 url: http://garethjohnsdesign.com
-description: A London-based studio focused on art direction, development, and design for print.
+description: A London-based studio focused on art direction, development, and design
+  for print.
 permalink: pretty
 exclude:
 - Gemfile
@@ -39,12 +40,12 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 colophon: http://garethjohnsdesign.com
-company: "Gareth Johns Design + Development"
+company: Gareth Johns Design + Development
 email: info@garethjohnsdesign.com
 phone-number: "+44(0)77 2573 7734"
 address-text: "Unit D  \n100 De Beauvoir Road  \nLondon N1 4EN"
 map: https://goo.gl/maps/GYrrK5YHjmP2
-google_site_verification:
+google_site_verification: 
 analytics: UA-83447045-1
 logo: "/assets/img/logo.svg"
 per_page: 12
