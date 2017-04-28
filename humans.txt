@@ -58,11 +58,3 @@ adobe.com
 
 Slack - Emojis and GIFs
 slack.com
-
-
-FONTS
------
-
-Post Grotesk
-by Incubator
-https://vllg.com

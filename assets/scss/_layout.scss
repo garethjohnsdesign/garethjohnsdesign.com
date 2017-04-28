@@ -1,79 +1,144 @@
-// Standard
+//  Table of Contents:
+//
+//   1. Global
+//   2. Mixins
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
+
+// 1. Global
+// ---------
+
+body {  
+  cursor: default;
+}
 
 body {
-    opacity: 1;
-    transition: $primary-transition;
+  opacity: 1;
+  transition: $primary-transition;
 }
+
 body.fade-out {
-    opacity: 0;
-    transition: $primary-transition;
+  opacity: 0;
+//   transition: none;
 }
 
 svg {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ::selection {
-    background: #FFFFFF;
-    color: #000000;
+  background: $color--black;
+  color: $color--white;
 }
 
-.no-js {
-  @include breakpoint(small only) {
-    .top-bar {
-      display: none;
-    }
-  }
+:focus {
+  outline: 0;
+}
 
-  @include breakpoint(medium) {
-    .title-bar {
-      display: none;
+[data-sticky] {
+  width: 100%;
+}
+
+a {
+  transition: $primary-transition;
+  border-bottom: 1px solid black;
+}
+
+a:hover {
+  color: $color--white;
+  border-bottom: 1px solid white;
+}
+
+// 2. Mixins
+// ---------
+
+
+@mixin padding {
+  padding-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+//     transition: $primary-transition;
+    color: $link;
+    &:hover {
+      color: $hover;   
     }
   }
 }
 
-// Typography
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+// 3. Typography
+// -------------
 
 .uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.sans-serif {
-	font-family: $font-family-secondary;
+i, cite, em, var, address, dfn {
+  font-style: normal;
 }
 
-
-// Layout
-
-a { 
-	transition: $primary-transition;
+.more {
+  padding-top: 1rem;
 }
 
-.underline-black { 
-	@include underline-from-left;
+h1 {
+  @include padding;
 }
+
+h2 {
+  @include padding;
+}
+
+// 4. Index
+// ------
 
 .index {
-	padding-top: 4rem;
-}
-
-.contact {
-	padding-top: 1rem;
-}
-
-.content  {
-  padding: 3rem;	
-  @include breakpoint(small only) {
-	  padding: 2rem;
+//   transition: $primary-transition;
+  @include breakpoint(small) {
+    padding: 1rem 1rem;
   }
   @include breakpoint(medium) {
-  	  padding: 4rem;
+    padding: 2rem 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 2.5rem 2.5rem;
+  }
+  @include breakpoint(xlarge) {
+    padding: 3rem 3rem;
   }
 }
 
+.index__contact {
+  padding-bottom: 1rem;
+}
+
+.index--light {
+  background-color: $color--black;
+  color: $color--white;
+  a {
+  color: $color--white;
+  border-bottom: 1px solid white;
+  }
+}

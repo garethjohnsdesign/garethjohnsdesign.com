@@ -1,25 +1,34 @@
 ---
-title: Gareth Johns
+title: Gareth Johns Design + Development
 timezone: UTC
 collections:
   posts:
     title: Posts
     output: true
-  projects:
-    title: Projects
-    output: false
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
-    type: projects
+    type: posts
   values:
-    layout: project
+    permalink: "/journal/:title/"
 url: http://garethjohnsdesign.com
+description: A London-based studio focused on art direction, development, and design
+  for print.
 permalink: pretty
 exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
 - bower_components
 gems:
 - jekyll-seo-tag
@@ -30,21 +39,26 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-description: A graphic design practice based in London. The studio is focused on art
-  direction , development, and design for print.
-company: Gareth Johns
+colophon: http://garethjohnsdesign.com
+company: Gareth Johns Design + Development
 email: info@garethjohnsdesign.com
-facebook: 
-instagram: 
-twitter:
-  username: benbalter
-imdb: 
-vimeo: 
-linkedin: 
-googleplus: 
-googleanalytics: UA-83447045-1
+phone-number: "+44(0)77 2573 7734"
+address-text: "Unit D  \n100 De Beauvoir Road  \nLondon N1 4EN"
+map: https://goo.gl/maps/GYrrK5YHjmP2
 google_site_verification: 
-logo: "/assets/img/layout/logo.svg"
+analytics: UA-83447045-1
+logo: "/assets/img/logo.svg"
 per_page: 12
-date_format: "%b %d, %Y"
+date_format: "%d %B %Y"
 future: true
+social:
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  twitter: https://www.twitter.com/
+  linkedin: https://www.linkedin.com/in/
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
