@@ -253,18 +253,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/untitledsans-bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/untitledsans-bold.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/untitledsans-bold.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/untitledsans-bold.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/untitledsans-regular.woff": {
 		"ft": 8192,
 		"oA": 2,
@@ -303,8 +291,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6817,12 +6805,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/README.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/README.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -6831,10 +6813,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/README.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
