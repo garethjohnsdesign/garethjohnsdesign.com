@@ -129,12 +129,6 @@
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
 		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
 	"\/_site\/sitemap.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -6769,10 +6763,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
