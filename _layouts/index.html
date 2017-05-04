@@ -7,10 +7,18 @@ layout: default
 		<h1>Gareth Johns<br>Design + Development</h1>
 		<h2>{{site.description}}</h2>
 		
+		<div class="index__clients">
+		<p>Clients Excerpt</p>
+		{% for client in page.clients %}
+<a href="{{ client.link }}" target="_blank">{{ client.title }}</a>{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
+    </div>
+		
 		<div class="index__contact">
 		<a href="tel:07725737734">+44 (0) 77 2573 7734</a><br>
 		<a href="mailto:info@garethjohnsdesign.com">info@garethjohnsdesign.com</a>
 		</div>
+		
 		
 		<div class="index__address">
     Unit D, 100 De Beauvoir Road<br>
