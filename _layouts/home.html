@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="grid-x grid-padding-x home">
+	<div class="small-12 medium-10 large-9 cell">
+  	
+  	<div class="home__title">
+  		<h1>Gareth Johns<br>Design + Development</h1>
+		</div>
+		
+		<div class="home__description">
+  		<h2>{{site.description}}</h2>
+		</div>
+		
+		<div class="home__clients">
+  		<p>Clients Excerpt</p>
+  		{% for client in page.clients %}
+      <a href="{{ client.link }}" target="_blank">{{ client.title }}</a>{% if forloop.last == false %},{% endif %}{% endfor %}</p>
+    </div>
+		
+		<div class="home__contact">
+  		<a href="tel:07725737734">+44 (0) 77 2573 7734</a><br>
+  		<a href="mailto:info@garethjohnsdesign.com">info@garethjohnsdesign.com</a>
+		</div>
+		
+		
+		<div class="home_address">
+    Studio Seventeen<br>
+    92-96 De Beauvoir Road<br>
+    London N1 4EN<br>
+    United Kingdom — <a href="https://goo.gl/maps/SkAvpajf1wL2">Map</a>
+    </div>
+
+	</div>
+</div>
