@@ -1,20 +1,75 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Mixins
+//   1. Mixins
+//   2. Global
 //   3. Typography
-//   4. Page
-//   5. Navigation
-//   6. Index
-//   7. Excerpt
-//   8. Projects
-//   9. Project
-//   10. Profile
-//   11. Services
-//   12. Contact
-//   13. Footer
+//   4. Home
 
-// 1. Global
+// 1. Mixins
+// ---------
+
+@mixin margin-one {
+  margin-bottom: 1rem;
+}
+
+@mixin margin-two {
+  margin-bottom: 2rem;
+}
+
+@mixin margin-three {
+  margin-bottom: 3rem;
+}
+
+@mixin margin-four {
+  margin-bottom: 4rem;
+}
+
+@mixin margin-five {
+  margin-bottom: 5rem;
+}
+
+@mixin margin-six {
+  margin-bottom: 6rem;
+}
+
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin link-underline($color, $size, $duration, $centered) {
+  color: $color;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  
+  &:before {
+    background-color: $color;
+    content: '';
+    height: $size;
+    position: absolute;
+    bottom: 0 - ($size/2);
+    transition: $duration;
+    width: 0;
+    @if $centered == 'true' {
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+  }
+  
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+// 2. Global
 // ---------
 
 body {  
@@ -28,7 +83,6 @@ body {
 
 body.fade-out {
   opacity: 0;
-//   transition: none;
 }
 
 svg {
@@ -37,59 +91,30 @@ svg {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $secondary-color;
 }
 
 :focus {
   outline: 0;
 }
 
-[data-sticky] {
-  width: 100%;
-}
-
-a {
-  transition: $primary-transition;
-  border-bottom: 1px solid black;
-}
-
-a:hover {
-  color: $color--white;
-  border-bottom: 1px solid white;
-}
-
-// 2. Mixins
-// ---------
-
-
-@mixin padding {
-  padding-bottom: 3rem;
-}
-
-@mixin links ($link, $hover) {
-  a {
-//     transition: $primary-transition;
-    color: $link;
-    &:hover {
-      color: $hover;   
-    }
-  }
-}
-
-@mixin opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie);
+[data-aos] {
+overflow: hidden;
 }
 
 // 3. Typography
 // -------------
+
+a {
+  transition: $primary-transition;
+  border-bottom: 1px solid $color--black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -99,22 +124,11 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-.more {
-  padding-top: 1rem;
-}
 
-h1 {
-  @include padding;
-}
-
-h2 {
-  @include padding;
-}
-
-// 4. Index
+// 4. Home
 // ------
 
-.index {
+.home {
 //   transition: $primary-transition;
   @include breakpoint(small) {
     padding: 1rem 1rem;
@@ -130,19 +144,34 @@ h2 {
   }
 }
 
-.index__contact {
-  padding-bottom: 1rem;
+.home__title {
+  @include margin-one;
 }
 
-.index__clients {
-  padding-bottom: 2rem;
+.home__description {
+  @include margin-two;
 }
 
-.index--light {
+.home__contact {
+  @include margin-two;
+}
+
+.home__contact {
+  @include margin-two;
+}
+
+.home__clients {
+  @include margin-two;
+}
+
+.home--light {
   background-color: $color--black;
   color: $color--white;
   a {
   color: $color--white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid $color--white;
+  }
+  a:hover {
+  color: $dark-gray;
   }
 }

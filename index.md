@@ -24,6 +24,5 @@ clients:
   link: http://www.wmg.com
 - title: XL Recordings
   link: http://www.xlrecordings.com
-layout: index
+layout: home
 ---
-
