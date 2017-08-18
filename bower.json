@@ -1,24 +1,28 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
+  "name": "my-new-project",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "John Doe <john@doe.com> (http://johndoe.com)"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
-  "main": "index.html",
+  "description": "CodeKit automatically generated this file. You should customize it according to: https://github.com/bower/spec/blob/master/json.md",
+  "main": [
+    "index.html",
+    "main.js"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "none"
+  ],
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
-  "dependencies": {
-    "foundation-sites": "^6.3.1",
-    "motion-ui": "~1.2.2",
-    "what-input": "^4.1.0",
-    "svgxuse": "^1.2.3",
-    "wow": "wow.js#^1.1.2",
-    "jquery": "^3.1.1",
-    "jquery-smooth-scroll": "^2.1.2",
-    "flickity": "^2.0.5",
-    "PACE": "pace#^1.0.2",
-    "smoothstate": "^0.7.2"
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foo/bar.git"
   },
   "ignore": [
     "**/.*",
@@ -28,8 +32,11 @@
     "tests"
   ],
   "private": true,
-  "resolutions": {
-    "what-input": "^4.1.0",
-    "jquery": "^3.1.1"
+  "dependencies": {
+    "aos": "^2.2.0",
+    "css-hamburgers": "^0.9.1",
+    "foundation-sites": "^6.4.1",
+    "svgxuse": "^1.2.4",
+    "lightgallery": "^1.5.0"
   }
 }

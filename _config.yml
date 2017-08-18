@@ -8,15 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/journal/:title/"
 url: http://garethjohnsdesign.com
-description: A London-based studio focused on art direction, development, and design
-  for print.
+description: A London-based studio focused on art direction, development, and design for print.
 permalink: pretty
 exclude:
 - Gemfile
@@ -30,6 +23,7 @@ exclude:
 - node_modules
 - ".gitignore"
 - bower_components
+- assets/scss
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -55,7 +49,7 @@ social:
   facebook: https://www.facebook.com/
   instagram: https://www.instagram.com/
   twitter: https://www.twitter.com/
-  linkedin: https://www.linkedin.com/in/
+  linkedin: https://www.linkedin.com/in/ 
 compress_html:
   comments:
   - "<!-- "
