@@ -9,7 +9,8 @@ collections:
     title: Uploads
     output: false
 url: http://garethjohnsdesign.com
-description: A London-based studio focused on art direction, development, and design for print.
+description: A London-based studio focused on art direction, development, and design
+  for print.
 permalink: pretty
 exclude:
 - Gemfile
@@ -49,7 +50,7 @@ social:
   facebook: https://www.facebook.com/
   instagram: https://www.instagram.com/
   twitter: https://www.twitter.com/
-  linkedin: https://www.linkedin.com/in/ 
+  linkedin: https://www.linkedin.com/in/
 compress_html:
   comments:
   - "<!-- "
