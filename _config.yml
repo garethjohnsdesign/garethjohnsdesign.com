@@ -13,8 +13,6 @@ description: A London-based studio focused on art direction, development, and de
   for print.
 permalink: pretty
 exclude:
-- Gemfile
-- Gemfile.lock
 - bower.json
 - package.json
 - config.codekit3

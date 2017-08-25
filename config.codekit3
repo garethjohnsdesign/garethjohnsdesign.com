@@ -288,6 +288,18 @@
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
 		},
+	"\/_site\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
