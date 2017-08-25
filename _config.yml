@@ -25,7 +25,7 @@ exclude:
 - ".gitignore"
 - bower_components
 - assets/scss
-plugins:
+gems:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
