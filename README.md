@@ -4,4 +4,4 @@ Website for Gareth Johns Design. Please go to [www.garethjohnsdesign.com](http:/
 
 * * *
 
-Copyright (c) 2017 Gareth Johns Art Direction + Design – info@garethjohnsdesign.com
+Copyright (c) 2017 Gareth Johns Design + Development – info@garethjohnsdesign.com
