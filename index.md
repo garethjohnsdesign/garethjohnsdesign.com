@@ -1,5 +1,6 @@
 ---
 title: Gareth Johns Design + Development
+position: 0
 image: "/assets/img/og-image.png"
 clients:
 - title: Atlantic Records
