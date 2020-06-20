@@ -11,10 +11,6 @@ clients:
   link: http://www.bartleboglehegarty.com
 - title: Canary Wharf Group
   link: http://group.canarywharf.com
-- title: EARN Studios
-  link: http://earnstudios.com
-- title: Richard Kern
-  link: http://www.richardkern.com
 - title: Somerset House
   link: https://www.somersethouse.org.uk
 - title: Universal Music
@@ -25,6 +21,12 @@ clients:
   link: http://www.wmg.com
 - title: XL Recordings
   link: http://www.xlrecordings.com
+- title: 813 Studio
+  link: https://www.813-studio.com
+- title: Des Hamilton Casting
+  link: https://www.deshamilton.com
+- title: Hot Feet
+  link: https://www.hotfeet.co
 layout: home
 ---
 
