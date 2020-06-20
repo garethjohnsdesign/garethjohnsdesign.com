@@ -33,6 +33,8 @@ clients:
   link: https://www.hotfeet.co
 - title: Sony
   link: https://www.sonymusic.co.uk
+- title: Aoife McArdle
+  link: https://www.aoifemcardle.com
 layout: home
 ---
 
