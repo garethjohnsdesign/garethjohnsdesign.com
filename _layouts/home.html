@@ -15,7 +15,8 @@ layout: default
 		
 		<div class="home__clients">
   		<p>Clients Excerpt</p>
-  		{% for client in page.clients %}
+      {% assign clients = page.clients | sort: 'title' %}
+  		{% for client in clients %}
       <a href="{{ client.link }}" target="_blank">{{ client.title }}</a>{% if forloop.last == false %},{% endif %}{% endfor %}</p>
     </div>
 		
